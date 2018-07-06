@@ -15,6 +15,7 @@ Why is it a good use of version control (Git/Github)?
 Where does it fall short in leveraging version control tools?
 
 What would you do differently?
+
 Within the repository, for many of the directories and subdirectories, there is not consistent verbiage to denote what exactly was done when updates were performed with the coding. For example, within the “Samples” subdirectory, the verbiage clearly states that the file names were changed for sample clinical documents, however inside the “ehr-edition” subdirectory the update comment is “fix deployment issues”. While Git does allow the viewing of a prior version of files that were changed, it would be beneficial to have a standard naming convention for update comments.
 
 Within the project website, which is hosted by GitHub, in the “Documentation” dropdown menu there are user guides which cover many roles and versions. For the typical end user, i.e. non-technical person, viewing the project website, there is room for confusion related to the multiple versions and roles. This could be simplified by larger icons related to role and then smaller icons or hyperlinks related to the different versions. While the most recent version is listed at the top of the webpage, I would deemphasize older versions of the documentation by either decreasing the font size associated with their hyperlinks or move to another webpage altogether. 
